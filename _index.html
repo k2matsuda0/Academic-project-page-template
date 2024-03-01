@@ -56,16 +56,16 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <!-- <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Kazuki Matsuda</a><sup>*</sup>,</span> -->
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Kazuki Matsuda</a><sup>*</sup>,</span>
                 <span class="author-block">
-                  <!-- <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Yuiga Wada</a><sup>*</sup>,</span>
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Yuiga Wada</a><sup>*</sup>,</span>
                   <span class="author-block">
                     <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Komei Sugiura</a>
-                  </span> -->
+                  </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">ECCV24</span>
+                    <span class="author-block">Keio University<br>ECCV24</span>
                     <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
                   </div>
 
@@ -94,7 +94,7 @@
                   </span>
 
                   <!-- Github link -->
-                  <!-- <span class="link-block">
+                  <span class="link-block">
                     <a href="https://github.com/YOUR REPO HERE" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
@@ -102,7 +102,7 @@
                     </span>
                     <span>Code</span>
                   </a>
-                </span> -->
+                </span>
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
@@ -123,12 +123,12 @@
 </section>
 
 <!-- Teaser video-->
-<!-- <section class="hero teaser">
+<section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%"> -->
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
         <!-- Your video here -->
-        <!-- <source src="static/videos/banner_video.mp4"
+        <source src="static/videos/banner_video.mp4"
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
@@ -136,7 +136,7 @@
       </h2>
     </div>
   </div>
-</section> -->
+</section>
 <!-- End teaser video -->
 
 
@@ -165,18 +165,31 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/eye-catch.png" alt="eye-catch"/>
+        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Overview of DENEB. Our metric is designed to effectively evaluate hallucinated captions, which is crucial in scenarios where 'AI safety' is paramount. Unlike existing metrics such as CIDEr and Polos, which often fail to distinguish between correct and hallucinated captions, DENEB demonstrates improved robustness by assigning lower scores to hallucinated captions than correct captions.
+          First image description.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/network.png" alt="netwok"/>
+        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Architecture of DENEB. CLIP and RoBERTa are employed to extract embeddings from an image, a candidate, and references. These embeddings are then processed concurrently by the Sim-Vec Transformer, comprising two modules: Sim-Vec Extraction and Transformer. Sim-Vec Extraction (SVE) utilizes the Hadamard product and element-wise differences to extract features, capturing the similarity among images, candidates, and references.
+          Second image description.
         </h2>
       </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         Third image description.
+       </h2>
+     </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Fourth image description.
+      </h2>
     </div>
   </div>
 </div>
@@ -187,13 +200,87 @@
 
 
 
+<!-- Youtube video -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <!-- Youtube embed code here -->
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
+
+
+<!-- Video carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/carousel1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/carousel2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+            <!-- Your video file here -->
+            <source src="static/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End video carousel -->
+
+
+
+
+
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+<!--End paper poster -->
+
+
 <!--BibTex citation -->
-  <!-- <section class="section" id="BibTeX">
+  <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>BibTex Code Here</code></pre>
     </div>
-</section> -->
+</section>
 <!--End BibTex citation -->
 
 
